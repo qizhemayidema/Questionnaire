@@ -1,0 +1,493 @@
+body,
+html {
+	background: rgba(0, 0, 0, .2);
+	overflow-x: hidden;
+	height: 100%;
+	font-family: '微软雅黑' !important
+}
+
+p {
+	margin: 0
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto
+}
+
+.mui-content,
+.row {
+	overflow: hidden;
+	max-width: 1200px;
+	margin: 0 auto
+}
+
+.row {
+	margin-bottom: 40px
+}
+
+section {
+	overflow: hidden;
+	width: 95%;
+	margin: 0 auto
+}
+
+.mui-header {
+	width: 95%;
+	margin: 0 auto
+}
+
+.m-title {
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	color: #333;
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 40px
+}
+
+.mui-input label {
+	position: absolute;
+	top: 9px;
+	left: 35px
+}
+
+.button {
+	max-width: 90%;
+	margin: 20px auto;
+	color: #333
+}
+
+.mui-col-sm-3 {
+	margin: 0 0 20px 0
+}
+
+.works {
+	width: 95%;
+	margin: 25px 0 0 0
+}
+
+.works p {
+	color: #333;
+	font-size: 18px;
+	font-weight: 700
+}
+
+.send {
+	color: #fff;
+	background: #007aff;
+	padding: 10px 0;
+	width: 100%
+}
+
+.blue {
+	color: #00f
+}
+
+input[type=text] {
+	margin-bottom: 0
+}
+
+.mui-input-row label {
+	width: 25%
+}
+
+.mui-input-row label~input {
+	background: #fff;
+	width: 75%;
+	padding: 10px 30px 10px 10px
+}
+
+.mui-card-content,
+input[type=checkbox],
+input[type=radio] {
+	cursor: pointer
+}
+
+.mui-input {
+	width: 50%;
+	float: left
+}
+
+.fileUploadContent {
+	margin-top: 20px;
+	width: 100%;
+	position: relative
+}
+
+.fileUploadContent .box {
+	border: solid thin #ddd;
+	min-height: 200px;
+	min-width: 200px;
+	margin-top: 10px;
+	overflow: hidden
+}
+
+.fileUploadContent .fileItem {
+	border: solid thin #ddd;
+	width: 90%;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	border-radius: 5px;
+	vertical-align: top;
+	overflow: hidden
+}
+
+.fileUploadContent .fileItem .imgShow {
+	width: 140px;
+	height: 140px;
+	margin: 5px auto;
+	text-align: center
+}
+
+.fileUploadContent .fileItem .imgShow i {
+	font-size: 120px;
+	position: relative;
+	top: 30px;
+	z-index: 2
+}
+
+.fileUploadContent .fileItem .imgShow img {
+	width: 100%;
+	height: 100%
+}
+
+.fileUploadContent .fileItem .imgShow .fileType {
+	color: #fff;
+	font-size: 20px;
+	position: relative;
+	top: 63px;
+	z-index: 3;
+	left: -18px
+}
+
+.fileUploadContent .fileItem .progress {
+	height: 10px;
+	width: 100%
+}
+
+.fileUploadContent .fileItem .progress>.progress_inner {
+	background-color: #09f;
+	width: 0%;
+	height: 10px;
+	border-radius: 10px;
+	transition: width .5s
+}
+
+.fileUploadContent .fileItem .progress .error {
+	background-color: red
+}
+
+.fileUploadContent .fileItem .status {
+	font-size: 15px;
+	text-align: center;
+	width: 10%;
+	float: left
+}
+
+.fileUploadContent .fileItem .status i {
+	display: block;
+	float: left;
+	padding: 2px 5px;
+	color: red;
+	margin-left: 3px;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer
+}
+
+.fileUploadContent .fileItem .fileName {
+	padding: 2px;
+	margin-bottom: 20px
+}
+
+.cleanFileBt>i {
+	display: inline-block;
+	margin-top: 6px
+}
+
+.fileUploadContent .uploadBts {
+	padding: 0 20px;
+	text-align: left;
+	height: 40px
+}
+
+.fileUploadContent .uploadBts>div {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+
+.fileUploadContent .uploadBts>div .selectFileBt {
+	border: 0;
+	background-color: #09f;
+	color: #fff;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	cursor: pointer
+}
+
+.fileUploadContent .uploadBts>div .selectFileBt:hover {
+	color: #ddd
+}
+
+.fileUploadContent .uploadBts>div i {
+	font-size: 35px;
+	color: #09f;
+	cursor: pointer
+}
+
+.fileUploadContent .subberProgress {
+	padding: 5px;
+	display: none
+}
+
+.fileUploadContent .subberProgress .progress {
+	border: solid thin #09f;
+	height: 20px;
+	width: 100%;
+	border-radius: 20px;
+	overflow: hidden
+}
+
+.fileUploadContent .subberProgress .progress>div {
+	background-color: #09f;
+	width: 0%;
+	height: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	text-align: center;
+	color: #fff;
+	transition: width .5s;
+	-moz-transition: width .5s;
+	-webkit-transition: width .5s;
+	-o-transition: width .5s;
+	transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
+	-webkit-transition-timing-function: linear;
+	-o-transition-timing-function: linear
+}
+
+.mui-preview-image.mui-fullscreen {
+	position: fixed;
+	z-index: 20;
+	background-color: #000
+}
+
+.mui-preview-footer,
+.mui-preview-header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	z-index: 10
+}
+
+.mui-preview-header {
+	height: 44px;
+	top: 0
+}
+
+.mui-preview-footer {
+	height: 50px;
+	bottom: 0
+}
+
+.mui-preview-header .mui-preview-indicator {
+	display: block;
+	line-height: 25px;
+	color: #fff;
+	text-align: center;
+	margin: 15px auto 4;
+	width: 70px;
+	background-color: rgba(0, 0, 0, .4);
+	border-radius: 12px;
+	font-size: 16px
+}
+
+.mui-preview-image {
+	display: none;
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both
+}
+
+.mui-preview-image.mui-preview-in {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+	cursor: pointer
+}
+
+.mui-preview-image.mui-preview-out {
+	background: 0 0;
+	-webkit-animation-name: fadeOut;
+	animation-name: fadeOut
+}
+
+.mui-preview-image.mui-preview-out .mui-preview-footer,
+.mui-preview-image.mui-preview-out .mui-preview-header {
+	display: none
+}
+
+.mui-zoom-scroller {
+	position: absolute;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	-webkit-backface-visibility: hidden
+}
+
+.mui-zoom {
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d
+}
+
+.mui-slider .mui-slider-group .mui-slider-item img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%
+}
+
+.mui-android-4-1 .mui-slider .mui-slider-group .mui-slider-item img {
+	width: 100%
+}
+
+.mui-android-4-1 .mui-slider.mui-preview-image .mui-slider-group .mui-slider-item {
+	display: inline-table
+}
+
+.mui-android-4-1 .mui-slider.mui-preview-image .mui-zoom-scroller img {
+	display: table-cell;
+	vertical-align: middle
+}
+
+.mui-preview-loading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none
+}
+
+.mui-preview-loading.mui-active {
+	display: block
+}
+
+.mui-preview-loading .mui-spinner-white {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -25px;
+	margin-top: -25px;
+	height: 50px;
+	width: 50px
+}
+
+.mui-preview-image img.mui-transitioning {
+	-webkit-transition: -webkit-transform .5s ease, opacity .5s ease;
+	transition: transform .5s ease, opacity .5s ease
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+@-webkit-keyframes fadeOut {
+	0% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@media (min-width:480px) {
+	.mui-col-sm-3 {
+		width: 33.3%;
+		float: left
+	}
+
+	.button {
+		max-width: 500px;
+		margin: 0 auto
+	}
+
+	.fileUploadContent .fileItem .imgShow1 {
+		width: 100%;
+		height: auto
+	}
+
+	.fileUploadContent .fileItem .status i {
+		font-size: 30px
+	}
+}
+
+.box>ul {
+	width: 49%;
+	float: left;
+	margin: 0;
+	padding: 0
+}
+
+.BoxRight {
+	margin-left: 2%
+}
+
+.box>ul li {
+	padding: 5px;
+	margin-bottom: 6px;
+	padding-bottom: 8px;
+	background-color: #fff
+}
+.value{
+	position: absolute;
+	top: 0;
+	left: 10px;
+	opacity: 0;
+}

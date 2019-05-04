@@ -1,0 +1,44 @@
+@font-face {
+	font-family: iconfont;
+	src: url(iconfont.woff);
+}
+
+.iconfont {
+	font-family: iconfont !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.icon-shanchu:before {
+	content: "\e636"
+}
+
+.icon-gou:before {
+	content: "\e666"
+}
+
+.icon-wenjian:before {
+	content: "\e634"
+}
+
+.icon-wenjian1:before {
+	content: "\e614"
+}
+
+.icon-qingchu:before {
+	content: "\e60a"
+}
+
+.icon-shangchuan:before {
+	content: "\e6f7"
+}
+
+.icon-cha:before {
+	content: "\e602"
+}
+
+.icon-wenjian2:before {
+	content: "\e615"
+}
